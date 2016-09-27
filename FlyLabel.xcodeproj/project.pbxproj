@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A52342FC1C1EB9FF00E98ED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52342FB1C1EB9FF00E98ED3 /* main.m */; };
+		A52342FF1C1EB9FF00E98ED3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52342FE1C1EB9FF00E98ED3 /* AppDelegate.m */; };
+		A52343021C1EB9FF00E98ED3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52343011C1EB9FF00E98ED3 /* ViewController.m */; };
+		A52343051C1EB9FF00E98ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52343031C1EB9FF00E98ED3 /* Main.storyboard */; };
+		A52343071C1EB9FF00E98ED3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52343061C1EB9FF00E98ED3 /* Images.xcassets */; };
+		A523430A1C1EB9FF00E98ED3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A52343081C1EB9FF00E98ED3 /* LaunchScreen.xib */; };
+		A52343161C1EB9FF00E98ED3 /* FlyLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52343151C1EB9FF00E98ED3 /* FlyLabelTests.m */; };
+		A52343211C1EBB2F00E98ED3 /* ELNLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A52343201C1EBB2F00E98ED3 /* ELNLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A52343101C1EB9FF00E98ED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A52342EE1C1EB9FF00E98ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A52342F51C1EB9FF00E98ED3;
+			remoteInfo = FlyLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A52342F61C1EB9FF00E98ED3 /* FlyLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52342FA1C1EB9FF00E98ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52342FB1C1EB9FF00E98ED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A52342FD1C1EB9FF00E98ED3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A52342FE1C1EB9FF00E98ED3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A52343001C1EB9FF00E98ED3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A52343011C1EB9FF00E98ED3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A52343041C1EB9FF00E98ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A52343061C1EB9FF00E98ED3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A52343091C1EB9FF00E98ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A523430F1C1EB9FF00E98ED3 /* FlyLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52343141C1EB9FF00E98ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52343151C1EB9FF00E98ED3 /* FlyLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyLabelTests.m; sourceTree = "<group>"; };
+		A523431F1C1EBB2F00E98ED3 /* ELNLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNLabel.h; sourceTree = "<group>"; };
+		A52343201C1EBB2F00E98ED3 /* ELNLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A52342F31C1EB9FF00E98ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A523430C1C1EB9FF00E98ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A52342ED1C1EB9FF00E98ED3 = {
+			isa = PBXGroup;
+			children = (
+				A52342F81C1EB9FF00E98ED3 /* FlyLabel */,
+				A52343121C1EB9FF00E98ED3 /* FlyLabelTests */,
+				A52342F71C1EB9FF00E98ED3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A52342F71C1EB9FF00E98ED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A52342F61C1EB9FF00E98ED3 /* FlyLabel.app */,
+				A523430F1C1EB9FF00E98ED3 /* FlyLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A52342F81C1EB9FF00E98ED3 /* FlyLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A52342FD1C1EB9FF00E98ED3 /* AppDelegate.h */,
+				A52342FE1C1EB9FF00E98ED3 /* AppDelegate.m */,
+				A52343001C1EB9FF00E98ED3 /* ViewController.h */,
+				A52343011C1EB9FF00E98ED3 /* ViewController.m */,
+				A523431F1C1EBB2F00E98ED3 /* ELNLabel.h */,
+				A52343201C1EBB2F00E98ED3 /* ELNLabel.m */,
+				A52343031C1EB9FF00E98ED3 /* Main.storyboard */,
+				A52343061C1EB9FF00E98ED3 /* Images.xcassets */,
+				A52343081C1EB9FF00E98ED3 /* LaunchScreen.xib */,
+				A52342F91C1EB9FF00E98ED3 /* Supporting Files */,
+			);
+			path = FlyLabel;
+			sourceTree = "<group>";
+		};
+		A52342F91C1EB9FF00E98ED3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A52342FA1C1EB9FF00E98ED3 /* Info.plist */,
+				A52342FB1C1EB9FF00E98ED3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A52343121C1EB9FF00E98ED3 /* FlyLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				A52343151C1EB9FF00E98ED3 /* FlyLabelTests.m */,
+				A52343131C1EB9FF00E98ED3 /* Supporting Files */,
+			);
+			path = FlyLabelTests;
+			sourceTree = "<group>";
+		};
+		A52343131C1EB9FF00E98ED3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A52343141C1EB9FF00E98ED3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A52342F51C1EB9FF00E98ED3 /* FlyLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52343191C1EB9FF00E98ED3 /* Build configuration list for PBXNativeTarget "FlyLabel" */;
+			buildPhases = (
+				A52342F21C1EB9FF00E98ED3 /* Sources */,
+				A52342F31C1EB9FF00E98ED3 /* Frameworks */,
+				A52342F41C1EB9FF00E98ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyLabel;
+			productName = FlyLabel;
+			productReference = A52342F61C1EB9FF00E98ED3 /* FlyLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A523430E1C1EB9FF00E98ED3 /* FlyLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A523431C1C1EB9FF00E98ED3 /* Build configuration list for PBXNativeTarget "FlyLabelTests" */;
+			buildPhases = (
+				A523430B1C1EB9FF00E98ED3 /* Sources */,
+				A523430C1C1EB9FF00E98ED3 /* Frameworks */,
+				A523430D1C1EB9FF00E98ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A52343111C1EB9FF00E98ED3 /* PBXTargetDependency */,
+			);
+			name = FlyLabelTests;
+			productName = FlyLabelTests;
+			productReference = A523430F1C1EB9FF00E98ED3 /* FlyLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A52342EE1C1EB9FF00E98ED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Elean;
+				TargetAttributes = {
+					A52342F51C1EB9FF00E98ED3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A523430E1C1EB9FF00E98ED3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A52342F51C1EB9FF00E98ED3;
+					};
+				};
+			};
+			buildConfigurationList = A52342F11C1EB9FF00E98ED3 /* Build configuration list for PBXProject "FlyLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A52342ED1C1EB9FF00E98ED3;
+			productRefGroup = A52342F71C1EB9FF00E98ED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A52342F51C1EB9FF00E98ED3 /* FlyLabel */,
+				A523430E1C1EB9FF00E98ED3 /* FlyLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A52342F41C1EB9FF00E98ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52343051C1EB9FF00E98ED3 /* Main.storyboard in Resources */,
+				A523430A1C1EB9FF00E98ED3 /* LaunchScreen.xib in Resources */,
+				A52343071C1EB9FF00E98ED3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A523430D1C1EB9FF00E98ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A52342F21C1EB9FF00E98ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52343211C1EBB2F00E98ED3 /* ELNLabel.m in Sources */,
+				A52343021C1EB9FF00E98ED3 /* ViewController.m in Sources */,
+				A52342FF1C1EB9FF00E98ED3 /* AppDelegate.m in Sources */,
+				A52342FC1C1EB9FF00E98ED3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A523430B1C1EB9FF00E98ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52343161C1EB9FF00E98ED3 /* FlyLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A52343111C1EB9FF00E98ED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A52342F51C1EB9FF00E98ED3 /* FlyLabel */;
+			targetProxy = A52343101C1EB9FF00E98ED3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A52343031C1EB9FF00E98ED3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A52343041C1EB9FF00E98ED3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A52343081C1EB9FF00E98ED3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A52343091C1EB9FF00E98ED3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A52343171C1EB9FF00E98ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A52343181C1EB9FF00E98ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A523431A1C1EB9FF00E98ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A523431B1C1EB9FF00E98ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A523431D1C1EB9FF00E98ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyLabel.app/FlyLabel";
+			};
+			name = Debug;
+		};
+		A523431E1C1EB9FF00E98ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyLabel.app/FlyLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A52342F11C1EB9FF00E98ED3 /* Build configuration list for PBXProject "FlyLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52343171C1EB9FF00E98ED3 /* Debug */,
+				A52343181C1EB9FF00E98ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52343191C1EB9FF00E98ED3 /* Build configuration list for PBXNativeTarget "FlyLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A523431A1C1EB9FF00E98ED3 /* Debug */,
+				A523431B1C1EB9FF00E98ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A523431C1C1EB9FF00E98ED3 /* Build configuration list for PBXNativeTarget "FlyLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A523431D1C1EB9FF00E98ED3 /* Debug */,
+				A523431E1C1EB9FF00E98ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A52342EE1C1EB9FF00E98ED3 /* Project object */;
+}
